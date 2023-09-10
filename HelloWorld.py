@@ -14,3 +14,5 @@ print("concatenate two strings")
 full_name = first_name+" " +last_name
 print("full name is: " +full_name)
 
+print('testing single quote comment')
+
