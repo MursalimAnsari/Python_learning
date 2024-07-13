@@ -1,4 +1,4 @@
-# we can define a function with def keyword and ident should be 1 tab space or 4 spaces for better practice
+# we can define a function with def keyword and indent should be 1 tab space or 4 spaces for better practice
 # a function can have any no of arguments
 # a function can return a value
 # we can call a function inside another function
@@ -10,7 +10,7 @@
 
 
 def findSum(a,b):
- return a+b
+    return a+b
 
 sum =findSum(10,20)
 
@@ -19,7 +19,7 @@ print( "sum of two numbers is: ", sum)
 
 # check if a number given is even or odd 
 
-def    checkEvenOdd(a):
+def checkEvenOdd(a):
  if(a%2==0):  print("number is even")
  else: print("number is odd")
 
