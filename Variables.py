@@ -1,23 +1,23 @@
-x= 200
+# x= 200
 
-# print(x)
+# # print(x)
 
-y = x 
+# y = x 
 
-# verify that two variables having same reference
+# # verify that two variables having same reference
 
-print("id of x is: ", id(x))
-print("id of y is: ", id(y))
+# print("id of x is: ", id(x))
+# print("id of y is: ", id(y))
 
-#  we have both the id's same hence these both variables are referring to same object
-#  id of x is:  140713429525144
-# id of y is:  140713429525144 
+# #  we have both the id's same hence these both variables are referring to same object
+# #  id of x is:  140713429525144
+# # id of y is:  140713429525144 
 
-y=300
+# y=300
 
-print("=======================")
-print("id of x is: ", id(x))
-print("id of y is: ", id(y))
+# print("=======================")
+# print("id of x is: ", id(x))
+# print("id of y is: ", id(y))
 
 
 #  Object life cycle in python: An object's lifecycle begins with creating any object. 
@@ -27,3 +27,27 @@ print("id of y is: ", id(y))
 #  The built in function id() returns the unique id of an object
 #  if two object have same id then they will return same code 
 #  python uses caching for storing the values in range [-5, 256] and it reuses them as needed.
+
+
+
+
+# Global variables 
+
+# declared outside the function and their access is available to the all the functions..
+
+x = 10
+
+print(f"global x variable before {x}")
+
+def greet(y):
+    
+    global x
+    x=15
+    print(f"local x is {x}")
+    print(f"y is {y}")
+
+
+greet(20)
+print(f"global x after change by fun greet {x}")
+
+

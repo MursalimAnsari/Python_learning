@@ -1,10 +1,13 @@
 
-# A built in data type in python that stores set of values
-# it can store elements of different types [1,3,"abc", 6.7] e.t.c
-# it is an ordered collection
-# can contain non unique values
-# mutable i.e. once created it can be modified
-
+"""
+    A built in data type in python that stores set of values
+    it can store elements of different types [1,3,"abc", 6.7] e.t.c , i.e. heterogenous elements allowed
+    it is an ordered collection, insertion order preserved
+    can contain duplicate values
+    mutable i.e. once created it can be modified
+    growable in size
+    values should be enclosed within square bracket
+"""
 
 numbers = [1,2,3,22,45,4,5,6,6]
 

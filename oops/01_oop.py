@@ -3,14 +3,13 @@ class Car:
     def __init__(self, brand, model,colour):
         #  if we have to make an attribute private we can:
         #  self.__brand = brand # by adding __brand it makes the variable private
-         self.__brand = brand
+         self.brand = brand
          self.model=model
          self.colour=colour
     
     # getter method to access private data of a class
     def get_brand(self):
-        return self.__brand
-
+        return self.brand
 
     # create methods and access those methods in cild class
     def print_full_name(self):
@@ -19,8 +18,7 @@ class Car:
 class ElectricCar(Car):
      def __init__(self, brand, model, colour, battery_size):
           super().__init__(brand, model, colour) 
-          self.battery_size= battery_size
-         
+          self.battery_size= battery_size       
 
 # Objects
 # audi_car = Car("Audi", "R8", "White")         

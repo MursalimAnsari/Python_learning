@@ -11,10 +11,10 @@ while(i>=1):
     i = i-1
 
 
-
-
-
 x=1
-while(x<=10):
+while x<=10:
     print(f'Mursalim is a super human! {x}  \n ')
     x =x+1
+
+
+    
