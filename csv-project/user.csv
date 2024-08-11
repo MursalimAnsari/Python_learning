@@ -1,0 +1,12 @@
+user_id,user_name,salary,department_name
+1,John Doe,55000.00,Engineering
+2,Jane Smith,62000.00,Marketing
+3,Emily Johnson,58000.00,Sales
+4,Michael Brown,70000.00,HR
+5,Sarah Davis,50000.00,Finance
+user_id,user_name,salary,department_name
+6,Lucas Gray,75000.00,IT
+7,Alice Green,69000.00,Operations
+8,David Lee,72000.00,Logistics
+9,Olivia Martinez,65000.00,Design
+10,James Wilson,56000.00,Legal
